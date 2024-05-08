@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19E95F42B048818004A84B9 /* DigitalClosetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E95F32B048818004A84B9 /* DigitalClosetApp.swift */; };
+		D19E95F62B048818004A84B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E95F52B048818004A84B9 /* ContentView.swift */; };
+		D19E95F82B04881E004A84B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19E95F72B04881E004A84B9 /* Assets.xcassets */; };
+		D19E95FB2B04881E004A84B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19E95FA2B04881E004A84B9 /* Preview Assets.xcassets */; };
+		D19E95FD2B04881E004A84B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E95FC2B04881E004A84B9 /* Persistence.swift */; };
+		D19E96072B048861004A84B9 /* ClosetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E96062B048861004A84B9 /* ClosetManager.swift */; };
+		D19E96092B055571004A84B9 /* DataEntryTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E96082B055571004A84B9 /* DataEntryTestingView.swift */; };
+		D19E960B2B055587004A84B9 /* OutfitBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E960A2B055587004A84B9 /* OutfitBuilderView.swift */; };
+		D1CED0FD2B0598F7004382D9 /* DigitalCloset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1CED0FB2B0598F7004382D9 /* DigitalCloset.xcdatamodeld */; };
+		D1CED0FF2B09576A004382D9 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED0FE2B09576A004382D9 /* HomePageView.swift */; };
+		D1CED1012B0ABE6B004382D9 /* ClothingItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED1002B0ABE6B004382D9 /* ClothingItemsView.swift */; };
+		D1CED1032B0C3B16004382D9 /* EditUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED1022B0C3B16004382D9 /* EditUserInfoView.swift */; };
+		D1CED1052B0D2BB2004382D9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED1042B0D2BB1004382D9 /* ImagePicker.swift */; };
+		D1CED1072B0D3C96004382D9 /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED1062B0D3C95004382D9 /* AddNewItemView.swift */; };
+		D1CED1092B0D738D004382D9 /* JsonWebMV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED1082B0D738D004382D9 /* JsonWebMV.swift */; };
+		D1CED10C2B0D8E15004382D9 /* WeatherReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED10B2B0D8E15004382D9 /* WeatherReportView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D19E95F02B048818004A84B9 /* DigitalCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19E95F32B048818004A84B9 /* DigitalClosetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClosetApp.swift; sourceTree = "<group>"; };
+		D19E95F52B048818004A84B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D19E95F72B04881E004A84B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19E95FA2B04881E004A84B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D19E95FC2B04881E004A84B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D19E96062B048861004A84B9 /* ClosetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetManager.swift; sourceTree = "<group>"; };
+		D19E96082B055571004A84B9 /* DataEntryTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryTestingView.swift; sourceTree = "<group>"; };
+		D19E960A2B055587004A84B9 /* OutfitBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitBuilderView.swift; sourceTree = "<group>"; };
+		D1CED0FC2B0598F7004382D9 /* DigitalCloset.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalCloset.xcdatamodel; sourceTree = "<group>"; };
+		D1CED0FE2B09576A004382D9 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		D1CED1002B0ABE6B004382D9 /* ClothingItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItemsView.swift; sourceTree = "<group>"; };
+		D1CED1022B0C3B16004382D9 /* EditUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInfoView.swift; sourceTree = "<group>"; };
+		D1CED1042B0D2BB1004382D9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D1CED1062B0D3C95004382D9 /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
+		D1CED1082B0D738D004382D9 /* JsonWebMV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonWebMV.swift; sourceTree = "<group>"; };
+		D1CED10A2B0D8795004382D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1CED10B2B0D8E15004382D9 /* WeatherReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19E95ED2B048818004A84B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19E95E72B048818004A84B9 = {
+			isa = PBXGroup;
+			children = (
+				D19E95F22B048818004A84B9 /* DigitalCloset */,
+				D19E95F12B048818004A84B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19E95F12B048818004A84B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19E95F02B048818004A84B9 /* DigitalCloset.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19E95F22B048818004A84B9 /* DigitalCloset */ = {
+			isa = PBXGroup;
+			children = (
+				D1CED10A2B0D8795004382D9 /* Info.plist */,
+				D19E95F32B048818004A84B9 /* DigitalClosetApp.swift */,
+				D19E95F52B048818004A84B9 /* ContentView.swift */,
+				D1CED0FE2B09576A004382D9 /* HomePageView.swift */,
+				D19E960A2B055587004A84B9 /* OutfitBuilderView.swift */,
+				D1CED1002B0ABE6B004382D9 /* ClothingItemsView.swift */,
+				D1CED1062B0D3C95004382D9 /* AddNewItemView.swift */,
+				D1CED10B2B0D8E15004382D9 /* WeatherReportView.swift */,
+				D1CED1022B0C3B16004382D9 /* EditUserInfoView.swift */,
+				D19E95F72B04881E004A84B9 /* Assets.xcassets */,
+				D19E96062B048861004A84B9 /* ClosetManager.swift */,
+				D1CED1042B0D2BB1004382D9 /* ImagePicker.swift */,
+				D1CED1082B0D738D004382D9 /* JsonWebMV.swift */,
+				D19E96082B055571004A84B9 /* DataEntryTestingView.swift */,
+				D19E95FC2B04881E004A84B9 /* Persistence.swift */,
+				D1CED0FB2B0598F7004382D9 /* DigitalCloset.xcdatamodeld */,
+				D19E95F92B04881E004A84B9 /* Preview Content */,
+			);
+			path = DigitalCloset;
+			sourceTree = "<group>";
+		};
+		D19E95F92B04881E004A84B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D19E95FA2B04881E004A84B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19E95EF2B048818004A84B9 /* DigitalCloset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19E96032B04881E004A84B9 /* Build configuration list for PBXNativeTarget "DigitalCloset" */;
+			buildPhases = (
+				D19E95EC2B048818004A84B9 /* Sources */,
+				D19E95ED2B048818004A84B9 /* Frameworks */,
+				D19E95EE2B048818004A84B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalCloset;
+			productName = DigitalCloset;
+			productReference = D19E95F02B048818004A84B9 /* DigitalCloset.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19E95E82B048818004A84B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D19E95EF2B048818004A84B9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D19E95EB2B048818004A84B9 /* Build configuration list for PBXProject "DigitalCloset" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19E95E72B048818004A84B9;
+			productRefGroup = D19E95F12B048818004A84B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19E95EF2B048818004A84B9 /* DigitalCloset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19E95EE2B048818004A84B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19E95FB2B04881E004A84B9 /* Preview Assets.xcassets in Resources */,
+				D19E95F82B04881E004A84B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19E95EC2B048818004A84B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CED0FD2B0598F7004382D9 /* DigitalCloset.xcdatamodeld in Sources */,
+				D1CED1032B0C3B16004382D9 /* EditUserInfoView.swift in Sources */,
+				D1CED1092B0D738D004382D9 /* JsonWebMV.swift in Sources */,
+				D19E96092B055571004A84B9 /* DataEntryTestingView.swift in Sources */,
+				D19E95FD2B04881E004A84B9 /* Persistence.swift in Sources */,
+				D19E96072B048861004A84B9 /* ClosetManager.swift in Sources */,
+				D19E960B2B055587004A84B9 /* OutfitBuilderView.swift in Sources */,
+				D1CED10C2B0D8E15004382D9 /* WeatherReportView.swift in Sources */,
+				D19E95F62B048818004A84B9 /* ContentView.swift in Sources */,
+				D1CED1052B0D2BB2004382D9 /* ImagePicker.swift in Sources */,
+				D1CED1072B0D3C96004382D9 /* AddNewItemView.swift in Sources */,
+				D1CED0FF2B09576A004382D9 /* HomePageView.swift in Sources */,
+				D19E95F42B048818004A84B9 /* DigitalClosetApp.swift in Sources */,
+				D1CED1012B0ABE6B004382D9 /* ClothingItemsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D19E96012B04881E004A84B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D19E96022B04881E004A84B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19E96042B04881E004A84B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalCloset/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalCloset/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Used to Display Weather Data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Used to Display Weather Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mckuhler.DigitalCloset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19E96052B04881E004A84B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalCloset/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalCloset/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Used to Display Weather Data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Used to Display Weather Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mckuhler.DigitalCloset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19E95EB2B048818004A84B9 /* Build configuration list for PBXProject "DigitalCloset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E96012B04881E004A84B9 /* Debug */,
+				D19E96022B04881E004A84B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19E96032B04881E004A84B9 /* Build configuration list for PBXNativeTarget "DigitalCloset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19E96042B04881E004A84B9 /* Debug */,
+				D19E96052B04881E004A84B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1CED0FB2B0598F7004382D9 /* DigitalCloset.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1CED0FC2B0598F7004382D9 /* DigitalCloset.xcdatamodel */,
+			);
+			currentVersion = D1CED0FC2B0598F7004382D9 /* DigitalCloset.xcdatamodel */;
+			path = DigitalCloset.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D19E95E82B048818004A84B9 /* Project object */;
+}
